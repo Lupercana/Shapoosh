@@ -5,9 +5,47 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sp_ball</sprite>
+    <sprite>sprites\sp_wall</sprite>
+    <sprite>sprites\sp_spawn</sprite>
+    <sprite>sprites\sp_coin</sprite>
+    <sprite>sprites\sp_col_circle</sprite>
+    <sprite>sprites\sp_col_point</sprite>
+    <sprite>sprites\sp_col_rect</sprite>
+    <sprite>sprites\sp_col_triangle</sprite>
+    <sprite>sprites\sp_col_crescent</sprite>
+    <sprite>sprites\sp_sel_circle</sprite>
+    <sprite>sprites\sp_sel_point</sprite>
+    <sprite>sprites\sp_sel_rect</sprite>
+    <sprite>sprites\sp_sel_triangle</sprite>
+    <sprite>sprites\sp_sel_crescent</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_cmd</object>
+    <object>objects\obj_collision_free_check</object>
+    <object>objects\obj_ball</object>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_spawn</object>
+    <object>objects\obj_coin</object>
+    <object>objects\obj_col_shape</object>
+    <object>objects\obj_col_circle</object>
+    <object>objects\obj_col_point</object>
+    <object>objects\obj_col_rect</object>
+    <object>objects\obj_col_triangle</object>
+    <object>objects\obj_col_crescent</object>
+    <object>objects\obj_sel_shape</object>
+    <object>objects\obj_sel_circle</object>
+    <object>objects\obj_sel_point</object>
+    <object>objects\obj_sel_rect</object>
+    <object>objects\obj_sel_triangle</object>
+    <object>objects\obj_sel_crescent</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_lv_1</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
