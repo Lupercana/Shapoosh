@@ -25,9 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!global.game_start &amp;&amp; global.avail_circle &gt; 0 &amp;&amp; !global.placement_pending)
+            <string>if (!global.start_level &amp;&amp; global.avail_circles &gt; 0 &amp;&amp; !global.placement_pending)
 {
-    instance_create(mouse_x, mouse_y, obj_col_circle);
+    instance_create(mouse_x, mouse_y, obj_pending_circle);
+    global.placement_pending = true;
 }
 </string>
           </argument>

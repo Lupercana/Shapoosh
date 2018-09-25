@@ -23,9 +23,13 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_sel</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_cmd</object>
     <object>objects\obj_collision_free_check</object>
+    <object>objects\obj_collision</object>
     <object>objects\obj_ball</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_spawn</object>
@@ -42,9 +46,19 @@
     <object>objects\obj_sel_rect</object>
     <object>objects\obj_sel_triangle</object>
     <object>objects\obj_sel_crescent</object>
+    <object>objects\obj_pending_shape</object>
+    <object>objects\obj_pending_circle</object>
+    <object>objects\obj_pending_point</object>
+    <object>objects\obj_pending_rect</object>
+    <object>objects\obj_pending_triangle</object>
+    <object>objects\obj_pending_crescent</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_lv_1</room>
+    <room>rooms\rm_lv_2</room>
+    <room>rooms\rm_lv_3</room>
+    <room>rooms\rm_lv_4</room>
+    <room>rooms\rm_lv_5</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
